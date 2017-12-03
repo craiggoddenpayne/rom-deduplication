@@ -31,15 +31,18 @@ namespace RomDeDupe
                     var i=0;
                     foreach(var item in similarNames)
                     {
-                        if(Regex.IsMatch(item,"1|2|3|4|5|6|7|8|9|\\sI\\s|\\sII\\s|\\sIII\\s"))
+                        if(Regex.IsMatch(name,"1|2|3|4|5|6|7|8|9|\\sI\\s|\\sII\\s|\\sIII\\s"))
+                            continue;
                         if(i > similarNames.Count())
                             break;
 
                             if(i==0)
                             {
-                                Console.WriteLine("Keeping " + similarNames.ElementAt(0));
+                                i++;
+                                continue;
                             }
                             else{
+                                Console.WriteLine("Keeping " + similarNames.ElementAt(0));
                                 Console.WriteLine("Removing " + Path.Combine(romDirectory.FullName, similarNames.ElementAt(i)));
                                 File.Delete(Path.Combine(romDirectory.FullName, item));
                                 DeDupe();
