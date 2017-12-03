@@ -35,8 +35,6 @@ namespace RomDeDupe
                         if(i > similarNames.Count())
                             break;
 
-                        if(similarNames.Count() > 1)
-                        {
                             if(i==0)
                             {
                                 Console.WriteLine("Keeping " + similarNames.ElementAt(0));
@@ -48,7 +46,6 @@ namespace RomDeDupe
                                 throw new Exception("Completed");
                             }
                             i++; 
-                        }
                     }
                 }
             }
