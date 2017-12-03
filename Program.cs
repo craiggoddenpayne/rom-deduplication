@@ -42,13 +42,11 @@ namespace RomDeDupe
                                 continue;
                             }
                             else{
-                                Console.WriteLine("Keeping " + similarNames.ElementAt(0));
-                                Console.WriteLine("Removing " + Path.Combine(romDirectory.FullName, similarNames.ElementAt(i)));
+                                Console.WriteLine("Keeping " + similarNames.ElementAt(0) + ", Removing " +  similarNames.ElementAt(i));
                                 File.Delete(Path.Combine(romDirectory.FullName, item));
                                 DeDupe();
                                 throw new Exception("Completed");
                             }
-                            i++; 
                     }
                 }
             }
