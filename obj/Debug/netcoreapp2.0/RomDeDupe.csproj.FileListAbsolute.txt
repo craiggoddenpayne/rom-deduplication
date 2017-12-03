@@ -1,0 +1,10 @@
+C:\Code\RomDeDupe\bin\Debug\netcoreapp2.0\RomDeDupe.deps.json
+C:\Code\RomDeDupe\bin\Debug\netcoreapp2.0\RomDeDupe.runtimeconfig.json
+C:\Code\RomDeDupe\bin\Debug\netcoreapp2.0\RomDeDupe.runtimeconfig.dev.json
+C:\Code\RomDeDupe\bin\Debug\netcoreapp2.0\RomDeDupe.dll
+C:\Code\RomDeDupe\bin\Debug\netcoreapp2.0\RomDeDupe.pdb
+C:\Code\RomDeDupe\obj\Debug\netcoreapp2.0\RomDeDupe.csproj.CoreCompileInputs.cache
+C:\Code\RomDeDupe\obj\Debug\netcoreapp2.0\RomDeDupe.AssemblyInfoInputs.cache
+C:\Code\RomDeDupe\obj\Debug\netcoreapp2.0\RomDeDupe.AssemblyInfo.cs
+C:\Code\RomDeDupe\obj\Debug\netcoreapp2.0\RomDeDupe.dll
+C:\Code\RomDeDupe\obj\Debug\netcoreapp2.0\RomDeDupe.pdb
